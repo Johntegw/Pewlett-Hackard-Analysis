@@ -64,7 +64,7 @@ Use the DISTINCT ON statement to retrieve the first occurrence of the employee n
          ORDER BY membership.emp_no ASC, membership.birth_date DESC; 
 
 
-HINT
+
 Exclude those employees that have already left the company by filtering on to_date to keep only those dates that are equal to '9999-01-01'.
 
 Create a Unique Titles table using the INTO clause.
