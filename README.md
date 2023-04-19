@@ -1,6 +1,7 @@
 # Pewlett-Hackard-Analysis
  Module 7
-Background
+Overview of the analysis: 
+
 Now that Bobby has proven his SQL chops, his manager has given both of you two more assignments: determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program. Then, you’ll write a report that summarizes your analysis and helps prepare Bobby’s manager for the “silver tsunami” as many current employees reach retirement age.
 
 What You're Creating
@@ -14,7 +15,8 @@ Files
 NOTE
 The starter folder includes the solution ERD and database schema, as well as the data CSV files, in case you need them to get started.
 
-Instructions
+Instructions:
+
 Deliverable 1: The Number of Retiring Employees by Title (50 points)
 Using the ERD you created in this module as a reference and your knowledge of SQL queries, create a Retirement Titles table that holds all the titles of employees who were born between January 1, 1952 and December 31, 1955. Because some employees may have multiple titles in the database—for example, due to promotions—you’ll need to use the DISTINCT ON statement to create a table that contains the most recent title of each employee. Then, use the COUNT() function to create a table that has the number of retirement-age employees by most recent job title. Finally, because we want to include only current employees in our analysis, be sure to exclude those employees who have already left the company.
 
@@ -101,8 +103,6 @@ Before you export your table, confirm that it looks like this image:
 
 The retiring title table ordered by title and sorted by count in descending order.
 
-Save your Employee_Database_challenge.sql file in your Queries folder in the Pewlett-Hackard folder.
-
 Deliverable 2: The Employees Eligible for the Mentorship Program (30 points)
 Using the ERD you created in this module as a reference and your knowledge of SQL queries, create a mentorship-eligibility table that holds the current employees who were born between January 1, 1965 and December 31, 1965.
 
@@ -138,14 +138,7 @@ Before you export your table, confirm that it looks like this image:
 
 
 
-
-
-
 The mentorship table with the employee number, first and last name, birth date, from and to date for the current title, ordered by employee number.
-
-Deliverable 3: A written report on the employee database analysis (20 points)
-
-Overview of the analysis: Explain the purpose of this analysis.
 
 Results:
    At the time of this analysis there are currently 331,603 employees in the company.
